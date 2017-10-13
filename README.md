@@ -6,3 +6,4 @@ Building upon the Ubuntu-JDK docker image. This docker build creates a user and 
 
 2017-05-11: Updated JDK version to 1.8.0_131
 2017-08-03: Updated JDK version to 1.8.0_144
+2017-10-13: Updated versioning

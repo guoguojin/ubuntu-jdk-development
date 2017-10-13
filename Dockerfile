@@ -1,4 +1,8 @@
-FROM birchwoodlangham/ubuntu-jdk:1.8.0_144
+FROM birchwoodlangham/ubuntu-jdk:latest
+
+MAINTAINER Tan Quach <tan.quach@birchwoodlangham.com>
+
+ENV DEBIAN_FRONTEND noninteractive
 
 # install zsh, python pip etc.
 RUN apt-get update && \
