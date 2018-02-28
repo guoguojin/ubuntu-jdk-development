@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-docker build -t birchwoodlangham/ubuntu-jdk-development:2017-10 .
+VERSION=2018-03
+
+docker build -t birchwoodlangham/ubuntu-jdk-development:$VERSION .
+docker tag birchwoodlangham/ubuntu-jdk-development:$VERSION birchwoodlangham/ubuntu-jdk-development:latest
