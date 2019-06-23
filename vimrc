@@ -31,7 +31,6 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'christoomey/vim-tmux-navigator'
 
 " Generic Programming Support
-Plugin 'jakedouglas/exuberant-ctags'
 Plugin 'honza/vim-snippets'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
@@ -338,7 +337,3 @@ autocmd FileType elixir nnoremap <buffer> <leader>d :call alchemist#exdef()<CR>
 autocmd BufWritePost *.scala silent :EnTypeCheck
 nnoremap <localleader>t :EnTypeCheck<CR>
 au FileType scala nnoremap <localleader>df :EnDeclarationSplit v<CR>
-
-let g:dbext_default_profile_mssql_dev = 'type=SQLSRV:user=sa:passwd=N!ch1r3n:srvname=localhost'
-let g:dbext_default_SQLSRV_bin = 'mssql.sh'
-let g:dbext_default_SQLSRV_cmd_options = ' '
